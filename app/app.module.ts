@@ -1,8 +1,9 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
-import { routes } from './app.routes';
+import { appRouting } from './app.routes';
 import { AppComponent }  from './app.component';
 import { NavComponent } from './nav/navComponent';
 import { FeatureComponent } from './body/feature/featureComponent';
@@ -11,7 +12,7 @@ import { FooterComponent } from './footer/footer';
 import { LunchComponent } from './body/content/Menus/Lunch/lunchComponent';
 
 @NgModule({
-  imports: [BrowserModule, RouterModule.forRoot(routes)],
+  imports: [BrowserModule, appRouting, FormsModule],
   declarations:
   [
     AppComponent,

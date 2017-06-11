@@ -9,7 +9,7 @@
       </button>
 
 
-        <a [routerLink]="['/']" class="navbar-brand" href="">
+        <a routerLink="/" class="navbar-brand" href="">
           <span><img src="img/logo-nav.png" alt="Resto" title=""/></span>
                           Bell House Restaurant
 
@@ -25,8 +25,8 @@
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menus
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Brunch</a></li>
-            <li><a [routerLink]="['/lunch']">Lunch</a></li>
+            <li><a routerLink="/brunch">Brunch</a></li>
+            <li><a routerLink="/lunch">Lunch</a></li>
             <li><a href="#">Dinner</a></li>
             <li><a href="#">Tea</a></li>
           </ul>
