@@ -277,8 +277,6 @@ h5, h6          { font-weight: bolder }
 }
 
 .menu .menu-col {
-    display: block;
-    width: 100%;
     overflow: hidden;
     margin-bottom: 60px;
     position: relative;
@@ -326,6 +324,10 @@ h5, h6          { font-weight: bolder }
 
 .item_info .item_header{
   margin-bottom: 10px;
+}
+
+#menu-image-page1{
+  background-image: url("../img/lunch_page1.png");
 }
 
 
