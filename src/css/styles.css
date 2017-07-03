@@ -97,6 +97,8 @@ h5, h6          { font-weight: bolder }
   navbar --
     height to 80px
     background color white
+
+    pills active set to #f34949
 */
 
 /* Page content */
@@ -326,8 +328,35 @@ h5, h6          { font-weight: bolder }
   margin-bottom: 10px;
 }
 
+.menu-page{
+  height: 1500px;
+}
 #menu-image-page1{
   background-image: url("../img/lunch_page1.png");
+}
+#menu-image-page2{
+  background-image: url("../img/lunch_page2.png");
+}
+#menu-image-page3{
+  background-image: url("../img/lunch_page3.png");
+}
+#dinner-weekend-page1{
+  background-image: url("../img/dinner_weekend_page2.png");
+}
+#dinner-weekend-page2{
+  background-image: url("../img/dinner_weekend_page3.png");
+}
+#dinner-weekend-page3{
+  background-image: url("../img/dinner_weekend_page4.png");
+}
+#dinner-weekday-page1{
+  background-image: url("../img/dinner_weekday_page2.png");
+}
+#dinner-weekday-page2{
+  background-image: url("../img/dinner_weekday_page3.png");
+}
+#dinner-weekday-page3{
+  background-image: url("../img/dinner_weekday_page4.png");
 }
 
 

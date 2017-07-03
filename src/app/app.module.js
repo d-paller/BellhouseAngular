@@ -15,6 +15,7 @@ var featureComponent_1 = require("./body/feature/featureComponent");
 var homeContent_1 = require("./body/content/home/homeContent");
 var footer_1 = require("./footer/footer");
 var lunchComponent_1 = require("./body/content/Menus/Lunch/lunchComponent");
+var dinnerComponent_1 = require("./body/content/Menus/dinner/dinnerComponent");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -29,7 +30,8 @@ AppModule = __decorate([
             featureComponent_1.FeatureComponent,
             homeContent_1.HomeComponent,
             footer_1.FooterComponent,
-            lunchComponent_1.LunchComponent
+            lunchComponent_1.LunchComponent,
+            dinnerComponent_1.DinnerComponent
         ],
         bootstrap: [app_component_1.AppComponent]
     })
