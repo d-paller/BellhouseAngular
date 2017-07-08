@@ -10,7 +10,10 @@ import { FeatureComponent } from './body/feature/featureComponent';
 import { HomeComponent } from './body/content/home/homeContent';
 import { FooterComponent } from './footer/footer';
 import { LunchComponent } from './body/content/Menus/Lunch/lunchComponent';
-import { DinnerComponent } from './body/content/Menus/dinner/dinnerComponent'
+import { DinnerComponent } from './body/content/Menus/dinner/dinnerComponent';
+import { BrunchComponent } from './body/content/Menus/brunch/brunchComponent';
+import { TeaComponent } from './body/content/Menus/tea/teaComponent';
+import { ContactComponent } from './body/content/contact/contactComponent';
 
 @NgModule({
   imports: [BrowserModule, appRouting, FormsModule],
@@ -22,7 +25,10 @@ import { DinnerComponent } from './body/content/Menus/dinner/dinnerComponent'
     HomeComponent,
     FooterComponent,
     LunchComponent,
-    DinnerComponent
+    DinnerComponent,
+    BrunchComponent,
+    TeaComponent,
+    ContactComponent
   ],
   bootstrap: [AppComponent]
 })

@@ -58,6 +58,18 @@
     font-style: normal;
 
 }
+
+/* Brunch menu font */
+@font-face {
+    font-family: Gabriola;
+    font-weight: normal;
+    font-style: normal;
+    src: local("Gabriola Regular"), local("Gabriola"),
+        url("Gabriola.eot"),                        /* IE 5+ */
+        url('Gabriola.woff') format('woff'),        /* FF 3.6, Chrome 5, IE9 */
+        url('Gabriola.ttf') format('truetype'),     /* Opera, Safari */
+        url('Gabriola.svg#Gabriola') format('svg'); /* iOS */
+}
 /*  General CSS*/
 body{
     background: #fff;
@@ -75,6 +87,9 @@ h5, h6          { font-weight: bolder }
   padding: 10px;
 }
 
+.short-body{
+  min-height: 550px;
+}
 /*  Navbar */
 .navbar-brand-name > {
 
@@ -98,7 +113,9 @@ h5, h6          { font-weight: bolder }
     height to 80px
     background color white
 
-    pills active set to #f34949
+  pills active set to #f34949
+
+  forms selected border and glow to pink
 */
 
 /* Page content */
@@ -191,7 +208,7 @@ h5, h6          { font-weight: bolder }
 
 /* --------------- Menu ----------------*/
 /*    Menu section    */
-.menu-section{
+/*.menu-section{
     margin-bottom: 80px;
 }
 
@@ -211,6 +228,35 @@ h5, h6          { font-weight: bolder }
     background: #e5e3e3;
     top: 15px;
     right: -220px;
+}*/
+.menu{
+  border: 2px solid black;
+  margin-bottom: 30px;
+  font-family: Gabriola;
+  padding: 50px;
+  background-image: url('../img/bellMenuBackground.png');
+  background-position: center;
+  background-size: 100% 100%;
+  background-clip: border-box;
+}
+.menu > h2 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.menu > h3 {
+  margin: 0px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.menu > p{
+  font-size: 20px;
+  font-family: aleo-regular;
+}
+
+.menu > .bottom-text{
+  margin-bottom: 40px;
 }
 
 /* Menu Item */
@@ -359,7 +405,11 @@ h5, h6          { font-weight: bolder }
   background-image: url("../img/dinner_weekday_page4.png");
 }
 
-
+.form-horizontal .form-group{
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
 
 /*    footer    */
 footer{

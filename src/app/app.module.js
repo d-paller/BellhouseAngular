@@ -16,6 +16,9 @@ var homeContent_1 = require("./body/content/home/homeContent");
 var footer_1 = require("./footer/footer");
 var lunchComponent_1 = require("./body/content/Menus/Lunch/lunchComponent");
 var dinnerComponent_1 = require("./body/content/Menus/dinner/dinnerComponent");
+var brunchComponent_1 = require("./body/content/Menus/brunch/brunchComponent");
+var teaComponent_1 = require("./body/content/Menus/tea/teaComponent");
+var contactComponent_1 = require("./body/content/contact/contactComponent");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -31,7 +34,10 @@ AppModule = __decorate([
             homeContent_1.HomeComponent,
             footer_1.FooterComponent,
             lunchComponent_1.LunchComponent,
-            dinnerComponent_1.DinnerComponent
+            dinnerComponent_1.DinnerComponent,
+            brunchComponent_1.BrunchComponent,
+            teaComponent_1.TeaComponent,
+            contactComponent_1.ContactComponent
         ],
         bootstrap: [app_component_1.AppComponent]
     })
